@@ -1,5 +1,11 @@
 import scrapy
+from scrapy.loader import ItemLoader
+from scrapy.loader.processors import Compose
+from unidecode import unidecode
 
+class ScrapingTestingLoader(ItemLoader):
+    default_input_processor = Compose()
+    default_output_processor = TakeFirst()
 
 class ArticlesSpider(scrapy.Spider):
     name = 'articles'

@@ -11,6 +11,7 @@ BOT_NAME = 'gartner'
 
 SPIDER_MODULES = ['gartner.spiders']
 NEWSPIDER_MODULE = 'gartner.spiders'
+FEED_EXPORT_ENCODING = 'utf-8'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
