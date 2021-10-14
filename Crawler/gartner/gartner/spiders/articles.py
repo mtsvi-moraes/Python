@@ -1,10 +1,9 @@
 import scrapy
 from scrapy.loader import ItemLoader
-from scrapy.loader.processors import Compose
-from unidecode import unidecode
+from itemloaders.processors import TakeFirst, MapCompose
 
 class ScrapingTestingLoader(ItemLoader):
-    default_input_processor = Compose()
+    default_input_processor = MapCompose(unicode.strip)
     default_output_processor = TakeFirst()
 
 class ArticlesSpider(scrapy.Spider):
