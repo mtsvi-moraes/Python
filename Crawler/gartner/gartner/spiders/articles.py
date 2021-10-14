@@ -3,14 +3,14 @@ import scrapy
 
 class ArticlesSpider(scrapy.Spider):
     name = 'articles'
-    allowed_domains = ['www.gartner.com/smarterwithgartner/archive']
-    start_urls = ['http://www.gartner.com/smarterwithgartner/archive/']
+    allowed_domains = ['www.gartner.com/smarterwithgartner']
+    start_urls = ['http://www.gartner.com/smarterwithgartner']
 
     def parse(self, response):
-        articles = response.xpath('//div/h4/text()').getall()
-        title = response.xpath('//*[@id="gartnerinternalpage-b3a76c580b"]/div[2]/div/div/div/div/div/div[1]/div/div/div/div/div/div/div[2]/section/div/div[1]/div/div[2]/div/h2/text()').get()
+        articles = response.css('.rmg-t56 .h4::text').getall()
+        date = response.css('.text .p-small::text').getall()
 
         yield {
-            'Title': title,
-            'Articles': articles
+            'Articles': articles,
+            'Date': date
         }
