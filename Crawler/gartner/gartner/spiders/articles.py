@@ -3,8 +3,8 @@ from scrapy.exceptions import CloseSpider
 import json
 
 
-class GartnerFinalSpider(scrapy.Spider):
-    name = 'gartner_final'
+class ArticlesSpider(scrapy.Spider):
+    name = 'articles'
     nPage = 0
     INCREMENTED_BY = 1
     allowed_domains = ['www.gartner.com']
@@ -14,11 +14,13 @@ class GartnerFinalSpider(scrapy.Spider):
         if response.status == 500:
             raise CloseSpider('Last Page')
         r = json.loads(response.body)
+        url_base = 'www.gartner.com'
         info = r.get('data')['announcements'][:8]
         for titles in info:
             yield {
                 'Title': titles['title'],
-                'Date': titles['date']
+                'Date': titles['date'],
+                'Link': url_base+titles['url']
             }
 
             self.nPage += self.INCREMENTED_BY
