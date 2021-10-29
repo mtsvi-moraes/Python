@@ -1,4 +1,4 @@
-# Scrapy settings for amelia_ai project
+# Scrapy settings for watson project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,20 +7,17 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'amelia_ai'
+BOT_NAME = 'watson'
 
-SPIDER_MODULES = ['amelia_ai.spiders']
-NEWSPIDER_MODULE = 'amelia_ai.spiders'
+SPIDER_MODULES = ['watson.spiders']
+NEWSPIDER_MODULE = 'watson.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = False
-AUTOTHROTTLE_ENABLED = True
-
-
+ROBOTSTXT_OBEY = True
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -48,13 +45,13 @@ AUTOTHROTTLE_ENABLED = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'amelia_ai.middlewares.AmeliaAiSpiderMiddleware': 543,
+#    'watson.middlewares.WatsonSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'amelia_ai.middlewares.AmeliaAiDownloaderMiddleware': 543,
+#    'watson.middlewares.WatsonDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -66,7 +63,7 @@ AUTOTHROTTLE_ENABLED = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'amelia_ai.pipelines.AmeliaAiPipeline': 300,
+#    'watson.pipelines.WatsonPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
