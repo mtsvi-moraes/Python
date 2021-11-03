@@ -1,0 +1,79 @@
+Tag,Source,Date Published,Contributor,Title
+AI,News,2021-04-29,Katia Moskvitch, Mayflower: World’s cleverest robotic ship gets ready to cross and study the Atlantic
+AI,News,2021-07-28,Tšabi Molapo,What's Next in AI: IBM Research Africa to host virtual AI seminar series in August
+AI,Release,2021-03-17, Dhaval Patel,12 new Project Debater AI technologies available as cloud APIs
+AI,Release,2021-03-17,Mathias Steiner,Simplifying data: IBM’s AutoAI automates time series forecasting
+AI,Release,2021-04-29,Chuang Gan, MIT and IBM announce ThreeDWorld Transport Challenge for physically realistic Embodied AI
+AI,Release,2021-07-19,Dan Gutfreund,"IBM, MIT and Harvard release “Common Sense AI” dataset at ICML 2021"
+AI,Release,2021-09-01,Yishai Shimoni,Machine learning: From “best guess” to best data-based decisions
+AI,Research,2020-02-03,Kush Varshney,AI for AI set to make it easy to create machine learning algorithms
+AI,Research,2020-06-12,Martin Fleming,Biologically-inspired deep learning predicts chords of Bach
+AI,Research,2020-12-15,Abu Sebastian, Preparing deep learning for the real world – on a wide scale
+AI,Research,2021-01-28,Abigail Goldsteen,IBM RXN: New AI model boosts mapping of chemical reactions
+AI,Research,2021-03-11,Will Roberts,IBM AI finds new peptides – paving the way to better drug design
+AI,Research,2021-03-16,Payel Das,"Climate change: IBM boosts materials discovery to improve carbon capture, separation and storage"
+AI,Research,2021-03-22,Gustavo Stolovitzky,Speech-to-text AI could help doctors prescribe placebo to ease chronic pain
+AI,Research,2021-03-29,Sara Berger,IBM RXN for Chemistry: Automatically cleaning chemical reaction datasets
+AI,Research,2021-03-30,Alessandra Toniato, IBM researchers use epidemiology to find the best lockdown duration
+AI,Research,2021-04-07,Simone Bianco,IBM RXN for Chemistry: Unveiling the grammar of the organic chemistry language
+AI,Research,2021-04-15,Jeffrey Burns,Deep Document Understanding: IBM’s AI extracts data from complex documents
+AI,Research,2021-04-15,Yoonyoung Park,IBM researchers investigate ways to help reduce bias in healthcare AI
+AI,Research,2021-04-20,Kaoru Shinkawa,Daily chats with AI could help spot early signs of Alzheimer’s
+AI,Research,2021-04-22,Michal Rosen-Zvi,Finding new uses for drugs with generative AI
+AI,Research,2021-04-26,Slava Shechtman,"Austin or Boston? Making artificial speech more expressive, natural, and controllable"
+AI,Research,2021-04-29,Abu Sebastian,Mimicking the brain: Deep learning meets vector-symbolic AI
+AI,Research,2021-05-07,Hironobu Takagi,New smartphone app to navigate blind people to stand in lines with distances
+AI,Research,2021-05-07,Mikhail Yurochkin,New research helps make AI fairer in decision-making
+AI,Research,2021-05-20,Youssef Mroueh,AI boosts the discovery of metamaterials vital for next-gen gadgets
+AI,Research,2021-05-27,Alfio Gliozzo,Knowledge Graph construction gets big boost from AI
+AI,Research,2021-06-06,Orna Raz,Managing the risk in AI: Spotting the “unknown unknowns”
+AI,Research,2021-06-22,Fausto Martelli,AI discovery of a new way to enter a cell could boost molecular design
+AI,Research,2021-06-23,Eileen Koski,Researchers use AI to better spot risk factors of Type 1 diabetes
+AI,Research,2021-07-23,Campbell Watson,How AI can help predict climate extremes
+AI,Research,2021-07-29,Kristen Severson,IBM and The Michael J. Fox Foundation use AI to help predict progression of Parkinson’s disease
+AI,Research,2021-08-05,Laura-Jayne Gardiner,Tapping into the inner rhythm of living organisms with AI and ML
+AI Hardware,News,2020-02-10,Katia Moskvitch, IBM Research AI Hardware Center marks first birthday with explosive gains in AI computation
+AI Hardware,News,2020-03-23,Nelson Felix,Women in systems research transforming AI hardware
+AI Hardware,News,2021-07-21,Jeffrey Burns,Redefining AI accelerators: A new chip packaging tech & a first in analog compute
+AI Hardware,News,2021-08-23,Kailash Gopalakrishnan,IBM’s newest chip is more than meets the AI
+AI Hardware,Research,2020-02-21,Katia Moskvitch,IBM Research at SPIE 2020: New architectures and fabrications for AI hardware
+AI Hardware,Research,2020-11-06,Mukesh Khare, EUV patterning yield breakthrough sets new benchmark for logic scaling
+AI Hardware,Research,2021-01-17,Soumyadip Ghosh,Introducing the AI chip leading the world in precision scaling
+AI for Asset Management,News,2019-08-24,Arvind Krishna,IBM is developing an AI-powered IoT solution to manage and help monitor aging infrastructure
+AI for Asset Management,Research,2019-11-30,Arvind Krishna,"Artificial intelligence, drones and sensors set to save our crumbling infrastructure"
+Automated AI,Release,2021-03-05,Seiji Takeda,Researchers can speed up their AI model training with Snap ML
+Automated AI,Release,2021-10-19,Thomas Parnell,Snap ML pushes AutoAI to deliver 4x-faster automated machine learning on IBM Cloud
+Explainable AI,Release,2021-08-02,Dinesh Garg,"AI, you have a lot of explaining to do"
+"Fairness, Accountability, Transparency",Research,2021-02-05, Philippe Schwaller,IBM researchers check AI bias with counterfactual text
+Human-Centered AI,News,2021-04-15,Yunyao Li,Pushing the boundaries of human-AI interaction at IUI 2021
+Hybrid Cloud,News,2019-07-23,Jenny Hunter,IBM Science for Social Good 2019 projects announced
+Hybrid Cloud,News,2020-06-16,Stanisław Woźniak,IBM Systems Research: AI and Hybrid Cloud Can Advance Only as Far as Hardware Can Take Them
+Hybrid Cloud,News,2020-10-21,Beat Buesser,IBM teams with industry partners to bring energy-efficient AI hardware to hybrid cloud environments
+Hybrid Cloud,News,2020-12-14,Salim Roukos,"IEDM 2020: Advances in memory, analog AI and interconnects point to the future of hybrid cloud and AI"
+Hybrid Cloud,News,2021-03-01,Inkit Padhi, Going beyond Women’s History Month: Celebrating & empowering women scientists
+Hybrid Cloud,Release,2021-04-14, Philippe Schwaller, AI Hardware Composer launches on two-year anniversary of IBM AI Hardware Center
+Hybrid Cloud,Release,2021-05-11,Ruchir Puri,Kickstarting AI for Code: Introducing IBM’s Project CodeNet
+Hybrid Cloud,Research,2021-03-18,Roy Bar-Haim,AI and crowdsourcing to help physicians diagnose epilepsy faster
+Knowledge and Reasoning,Release,2021-06-10,Alfio Gliozzo,IBM’s new AI outperforms competition in table entry search with question-answering
+Knowledge and Reasoning,Research,2020-11-13,Nelson Felix, DualTKB: A Dual Learning Bridge between Text and Knowledge Base
+Knowledge and Reasoning,Research,2020-12-04,Pierre Dognin,Getting AI to reason: using neuro-symbolic AI for knowledge-based question answering
+Machine Learning,Deep Dive,2021-10-18,Guillermo Cecchi,Learning from imaging data to model brain activity
+Machine Learning,Research,2021-08-19,Pablo Meyer,Crowdsourcing to trace cell lineages
+Neuro-symbolic AI,Research,2020-12-16,Pin-Yu Chen,IBM-Stanford team’s solution of a longstanding problem could greatly boost AI
+Neuro-symbolic AI,Research,2021-10-12,Mike Murphy,How IBM Research is accelerating discoveries in the fight against COVID-19
+Quantum,Release,2021-03-05,Kathryn Guarini, IBM Molecule Generation Experience: Supercharging new materials design with AI and Hybrid Cloud
+Quantum,Release,2021-04-23,Abe Asfaw,The Qiskit Global Summer School is returning with a focus on Quantum Machine Learning
+Quantum,Research,2021-06-02,Srinivasan Arunachalam,An efficient method to learn quantum many-body systems
+Quantum,Research,2021-07-12,Yunchao Liu,Quantum kernels can solve machine learning problems that are hard for all classical methods
+Quantum,Research,2021-07-22,Ivano Tavernelli,IBM welcomes CERN as a new hub in the IBM Quantum Network
+Scaling AI,Research,2021-08-13,Edward Pyzer-Knapp,"New algorithm accelerates materials screening by working smart, not hard"
+Security,Release,2020-06-26,Mukesh Khare,IBM Differential Privacy Library: The single line of code that can protect your data
+Security,Release,2020-10-02,Youssef Mroueh,Adversarial Robustness Toolbox: One Year Later with v1.4
+Security,Release,2021-01-26,Ankur Agrawal,AI goes anonymous during training to boost privacy protection
+Security,Release,2021-08-05,Ambrish Rawat,Researchers develop defenses against deep learning hack attacks
+Security,Release,2021-11-02,Marc Stoecklin,IBM’s new AI-infused security technologies help defenders speed response to cyber attacks
+Trusted AI,Deep Dive,2021-10-07,Abhishek Bhandwaldar,Evaluating common sense in AI
+Trusted AI,News,2020-07-23,Michael Hind, Image captioning as an assistive technology
+Trusted AI,Release,2020-07-09,Naoise Holohan,IBM FactSheets Further Advances Trust in AI
+Trusted AI,Release,2021-06-08,Prasanna Sattigeri,IBM’s Uncertainty Quantification 360 toolkit boosts trust in AI
+Trusted AI,Research,2020-02-23,Jeffrey Burns, Characterizing the evolution of tasks within occupations

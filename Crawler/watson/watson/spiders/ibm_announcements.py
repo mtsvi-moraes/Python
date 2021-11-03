@@ -3,8 +3,8 @@ from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
 
 
-class TesteSpider(CrawlSpider):
-    name = 'teste'
+class IbmAnnouncementsSpider(CrawlSpider):
+    name = 'ibm_announcements'
     allowed_domains = ['newsroom.ibm.com']
     start_urls = ['https://newsroom.ibm.com/announcements']
 
