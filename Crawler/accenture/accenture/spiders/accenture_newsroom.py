@@ -26,13 +26,15 @@ class AccentureNewsroomSpider(scrapy.Spider):
     
     def parse_article(self, response):
         name = response.request.meta['Title']
+        date2 = response.xpath("normalize-space(//div[@class='col-xs-12 rel-date']/text())").get(),
         for day in response.xpath("normalize-space(//div[@id='tek-wrap-centerwell']/article/div[1]/text())"):
                    
             date = day.get()
 
             yield {
                 'Title': name,
-                'Date': date
+                'Date': (date) or (date2),
+                'Link': response.url
             }
 
 
