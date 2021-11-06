@@ -1,6 +1,7 @@
 import scrapy
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import CrawlSpider, Rule
+from amelia_ai.items import AmeliaAiItem
 
 
 class AiArticlesSpider(CrawlSpider):
@@ -10,12 +11,12 @@ class AiArticlesSpider(CrawlSpider):
 
     rules = (
         Rule(LinkExtractor(restrict_xpaths=("//ul[@class='blocks post four']/li/a[@class='block-link']")), callback='parse_item', follow=True),
-        Rule(LinkExtractor(restrict_xpaths=('//*[@id="ai-load-more"]')), follow=True),
+        Rule(LinkExtractor(restrict_xpaths=("//*[@id='nav-below']/p/a")), follow=True),
     )
 
     def parse_item(self, response):
-        yield {
-            'Title': response.xpath("(//span[@class='heading-title']/span/span)[1]/text()").get(),
-            'Date': response.xpath('//*[@id="post-details"]/text()').get(),
-            'Link': response.url
-        }
+        item = AmeliaAiItem()
+        item['Title'] = response.xpath("(//span[@class='heading-title']/span/span)[1]/text()").get()
+        item['Date'] = response.xpath('//*[@id="post-details"]/text()').get()
+        item['Link'] = response.url
+        yield item
