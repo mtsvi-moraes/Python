@@ -6,7 +6,7 @@ from scrapy.spiders import CrawlSpider, Rule
 class AlexaSpider(CrawlSpider):
     name = 'alexa'
     allowed_domains = ['developer.amazon.com']
-    start_urls = ['https://developer.amazon.com/en-US/blogs/alexa/device-makers']
+    start_urls = ['https://developer.amazon.com/en-US/blogs/alexa/device-makers#!1']
 
     rules = (
         Rule(LinkExtractor(restrict_xpaths=("//div[@class='blog__desc-item blog__desc-item--title']/a")), callback='parse_item', follow=True),
@@ -14,5 +14,5 @@ class AlexaSpider(CrawlSpider):
 
     def parse_item(self, response):
         yield {
-            'Title': response.xpath("//*[@class='blog-post-component__title-text mb-2']/text()").get()
+            'link': response.url #xpath("//*[@class='blog-post-component__title-text mb-2']/text()").get()
         }
