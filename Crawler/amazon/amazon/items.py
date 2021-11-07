@@ -7,4 +7,6 @@ import scrapy
 
 
 class AmazonItem(scrapy.Item):
-   pass
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    pass
