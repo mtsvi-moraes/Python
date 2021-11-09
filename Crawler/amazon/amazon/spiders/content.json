@@ -1,0 +1,15 @@
+{
+    "resultSize": "9",
+    "pagePath": "/content/alexa-blog/en_US/blogs/alexa/device-makers",
+    "searchPath": "/content/alexa-blog/",
+    "listTags": [
+        "blogs:en-US/alexa/device-makers",
+        "blogs:en-US/alexa/connected-devices",
+        "blogs:en-US/alexa/gadgets"
+    ],
+    "sortOrder": "desc",
+    "searchPathAuthorTag": "/content/cq:tags/blogs/tags/authors",
+    "searchPathTopicsTag": "/content/cq:tags/blogs/tags/topics",
+    "completePageUrl": "/en-US/blogs/alexa/device-makers",
+    "currentPage": 2
+}
